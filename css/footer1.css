@@ -1,0 +1,59 @@
+footer{
+	
+    display:flex;
+	background-color:black;
+	color: #85929E ;
+	font-family:arial;
+	float:fixed;
+	height:350px;
+}
+
+.footer-left{
+	
+	text-align:left;
+}
+
+.footer-left img{
+	width:9%;
+	height:17%;
+	top:20px;
+}
+
+.footer-left img.icons{
+	width:8%;
+	height:10%;
+	border-radius:100%;
+	margin-top:10px;
+}
+
+ .footer-left h1{
+	font-weight:400;
+	font-size:30;
+	color:gray;
+}
+
+.footer ul{
+	list-style:none;
+	padding-left:0;
+	text-align:left;
+}
+
+.footer ul h2{
+	font-size:15px;
+	color:gray;
+}
+
+li a{
+	text-decoration:none;
+	color:purple;
+	font-size:15px;
+	line-height:10px;
+}
+
+
+
+.bottomright{
+   position:absolute;
+   right:16px;
+  }
+  

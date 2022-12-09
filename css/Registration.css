@@ -1,0 +1,273 @@
+*{
+ margin:0;
+padding:0; 
+}
+
+
+.butt{
+	
+	display:inline-block;
+	border:1px solid #fff;
+	border-radius:3px;
+	font-weight:400px;
+	float:right;
+	width:100px;
+	height:30px;
+	background:linear-gradient( black,#C807C8 );
+	color:white;
+}
+
+.butt1{
+	display:inline-block;
+	border:1px solid #fff;
+	border-radius:3px;
+	font-weight:400px;
+	width:100px;
+	height:30px;
+	float:right;
+	background:linear-gradient( black,#C807C8 );
+	color:white;
+	
+	 
+}
+
+
+header{
+	height:120px;
+	background:#000000;
+	width:100%;
+	z-index:12;
+	position:fixed;
+	top:0;
+	
+}
+
+a:hover{
+    background-color:#000000;
+    padding:20px;
+}
+.logo{
+	display:block;
+	float:left;
+	text-align:left;
+	margin-left:auto;
+	padding-right:50px;
+}
+
+.header-right{
+	float:left;
+	color:#E5E7E9;
+	text-shadow: 3px 3px #4D5656 ;
+}
+nav{
+	float:right;
+	line-height:100px;
+}
+
+nav a{
+	text-decoration:none;
+	font-family:bignoodletitling;
+	letter-spacing:4px;
+	font-size:20px;
+	margin:0 10px;
+	color:#fff;
+	
+}
+
+body{
+  place-items: center;
+  background-image:url("../images/login.jpg");
+
+}
+
+.wrapper{
+  width: 900px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  position:relative;
+  top:200px;
+  
+}
+.wrapper .title{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(-135deg,#0F15DE,#0FC8DE);
+ 
+}
+.wrapper form{
+  padding: 10px 30px 50px 30px;
+  top:100px;
+}
+.wrapper form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.wrapper form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.wrapper form .field input:focus,
+form .field input:valid{
+  border-color: #4158d0;
+}
+.wrapper form .field label{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+form .field input:focus ~ label,
+form .field input:valid ~ label{
+  top: 0%;
+  font-size: 16px;
+  color: #4158d0;
+  background: #fff;
+  transform: translateY(-50%);
+}
+form .content{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+form .content .checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .content input{
+  width: 15px;
+  height: 15px;
+  background: red;
+}
+form .content label{
+  color: #262626;
+  user-select: none;
+  padding-left: 5px;
+}
+
+form .field input[type="submit"]{
+  color: #fff;
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(-135deg,#0F15DE,#0FC8DE);
+  transition: all 0.3s ease;
+}
+form .field input[type="submit"]:active{
+  transform: scale(0.95);
+}
+form .signup-link{
+  color: #262626;
+  margin-top: 20px;
+  text-align: center;
+}
+form .pass-link a,
+form .signup-link a{
+  color: #4158d0;
+  text-decoration: none;
+}
+form .pass-link a:hover,
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+
+body{
+	font-family:poppins;
+	margin:0;
+	display:grid;
+	font-size:14px;
+	color:black;
+}
+footer{
+	
+    display:flex;
+	padding:80px;
+	background-color:#000000;
+	color: #85929E ;
+	font-family:arial;
+	float:fixed;
+	width:100%;
+	position:relative;
+	top:300px;
+}
+
+.footer-left{
+	margin-bottom:200px;
+	text-align:left;
+}
+
+.footer-left img{
+	width:10%;
+	height:40%;
+	float:auto;
+}
+
+.footer-left img.icons{
+	width:8%;
+	height:30%;
+	border-radius:100%;
+}
+
+h2{
+	font-weight:600;
+	font-size:18;
+	color:black;
+	
+}
+
+.footer ul{
+	list-style:none;
+	padding-left:0;
+	text-align:left;
+}
+
+.footer li{
+	line-height:20px;
+	
+	
+}
+.padded
+{
+	padding-right:20px;
+	padding-left:20px;
+	
+}
+
+
+.footer a{
+	text-decoration:none;
+	color:#db3499;
+}
+
+
+
+.bottomright{
+   position:absolute;
+   right:16px;
+  }
+  

@@ -1,0 +1,86 @@
+body
+{
+	background-color:#212F3D ;
+
+}
+
+.sidenav {
+  height: 1530px; 
+  width: 250px; 
+  z-index: 1; 
+  top: 120px; 
+  left: 0;
+  background-color:black; 
+  overflow-x: hidden;
+  padding-top: 20px;
+  position:absolute;
+}
+
+.sidenav b {
+  text-align:center;
+  text-decoration: none;
+  font-size: 25px;
+  color: red;
+  display: block;
+}
+
+.sidenav a {
+ text-align:center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+
+.sidenav {
+padding-top: 15px;
+}
+
+.sidenav a {
+font-size: 18px;
+}
+
+.image
+{
+      position: absolute;
+      top: 0;
+      right: 0;
+      right: 0;
+	  width:1300px;
+	  height:500px;
+	 
+}
+
+table
+{
+	padding:500px 0px 0px 0px;
+	
+}
+
+.new
+{
+	padding-bottom:20px;
+	padding-left:320px;
+	padding-top:20px;
+	height:300px;
+	width:300px;
+}
+
+#text{
+	padding-left:400px;
+	font-weight:bold;
+	
+}
+
+#tHeader{
+	padding-left:320px;
+	padding-top:20px;
+	font-size:30px;
+}

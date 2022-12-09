@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>Home Page</title>
+<link rel="stylesheet" href="../css/home2.css">
+<link rel="stylesheet" href="../css/header.css">
+<link rel="stylesheet" href="../css/footer3.css">
+
+<!-- Load icon library -->
+
+
+<script type="text/javascript" src="../js/home.js"></script> 
+
+</head>
+
+	
+	<div class="box-area">
+	
+	<header>
+	<image class="logo" src="../images/cybersec.jpeg" width="175px" height="75px" alt="logo">
+	
+	<div class="header-right">
+	<h1>..CyberSec..</h1>
+	</div>
+<button type="button" class="butt" onclick="document.location='../html/Login.html'">Login</button>
+<button type="button" class="butt1"onclick="document.location='../html/registration.html'">Sign up</button>
+<br>
+<nav>
+		<a href="home.html">Home</a>
+	<a href="tools.html">Tools</a>
+	<a href="Cyber Attacks.html">Cyber Attacks</a>
+	<a href="contact.html">Contact</a>
+	<a href="About Us.html">About Us</a>
+	</nav>
+	</header>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<div class="banner-area">
+<div class="text"><h1>AMATEURS HACK SYSTEMS,</h1></div>
+<div class="text"><h2>PROFFESSIONALS HACK PEOPLE.</h2></div><br>
+  <img class="mySlides" src="../images/slideshow1.jpg"; style="width:100%">
+  <img class="mySlides" src="../images/ss2.jpg" style="width:100%">
+  <img class="mySlides" src="../images/ss3.jpg" style="width:100%">
+  <img class="mySlides" src="../images/ss4.jpg" style="width:100%">
+</div>
+<!-- The silide show -->
+<script>
+var myIndex = 0;//side show
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<!-- Songs content area-->
+<div class="content-area">
+<br>
+<div class="container2">
+<h3>Cyber Attack Types</h3>
+	<div class="card">
+	<img src="../images/mal1.jpg">
+	<h4>Malware Attacks</h4>
+	<a href="Attack 1.html" class="btn">Read More</a>
+	</div>
+	
+	<div class="card">
+	<img src="../images/tool11.jpg">
+	<h4>Phishing Attacks</h4>
+	<a href="Attack 2.html" class="btn">Read More</a>
+	</div>
+	
+	<div class="card">
+	<img src="../images/tool22.jpg">
+	<h4>DDOS Attack</h4>
+	<a href="Attack 4.html" class="btn">Read More</a>
+	</div>
+	
+	
+	</div><br>
+	
+	
+	
+<div class="container2">
+	<h3>Cyber Security Tools </h3>
+	<br><br>
+	<div class="card">
+	<img src="../images/ps.jpg">
+	<h4>Tool 1</h4>
+	<a href="tools.html" class="btn">Go</a>
+	</div>
+	
+	<div class="card">
+	<img src="../images/enc.jpg">
+	<h4>Tool 2</h4>
+	<a href="tools.html" class="btn">Go</a>
+	</div>
+	
+	<div class="card">
+	<img src="../images/port2.png">
+	<h4>Tool 3</h4>
+	<a href="tools.html" class="btn">Go</a>
+	</div>
+	
+	
+</div>
+<br>
+
+<div class="container2">
+	<h3>Cyber Attack Surface</h3>
+	<div class="card">
+	<img src="../images/ip.png">
+	<h4>IP Address </h4>
+	</div>
+	
+	<div class="card">
+	<img src="../images/port.jpg">
+	<h4>Internet Ports</h4>
+	</div>
+	
+	<div class="card">
+	<img src="../images/cloud.jpg">
+	<h4>Public and Private Cloud</h4>
+	</div>
+	
+	
+</div>
+
+
+</body>
+<!-- The body end footer start -->
+ <footer class="footer">
+	<div class="footer-left">
+	
+	<h1><image src="../images/cybersec.jpeg" width="175px" height="75px" alt="logo" >CyberSec</h1><br>
+	<br><br><image class="icons" src="../images/icon1.jpg">
+	<image class="icons" src="../images/icon2.jpg">
+	<image class="icons" src="../images/icon3.jpg">
+	<image class="icons" src="../images/icon4.jpg">
+	<image class="icons" src="../images/icon5.jpg">
+
+	</div><br>
+	
+	<ul><br><br>
+	<div class="foot">
+	<h2>About Us</h2><br>
+	 <ul>
+        
+		<li>
+		<a href="#">Contact Us</a><br>
+		<a href="#">Have any Question?</a></li>
+	 </ul></div>
+	 <br>
+	<h2>Pages</h2>
+	 <ul>
+        
+		<li>
+		<a href="#">Cyber Security Threats</a><br>
+		<a href="#">Cyber security Attacks</a><br>
+		<a href="#">Tools</a></li><br>
+	<h2>Address</h2>
+	
+	 <ul>        
+		<li>
+		<a href="#">127,westwood lane,</a><br>
+		<a href="#">day15,slidup,</a><br>
+		<a href="#">london united kindom</a></li>
+	 </ul><br>
+	</ul>
+	
+	</div>
+	
+	</footer>
+</body>
+</html>
+
+
+
+
